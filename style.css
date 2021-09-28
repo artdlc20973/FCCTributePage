@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#img-caption p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: large;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
