@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
 
+body {
+  background: #c924fc;
+  color: #fff;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -9,6 +14,9 @@ img {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: large;
+  text-align: justify;
+  padding: 0.5rem;
+  color: #000;
 }
 
 h4 {
@@ -19,4 +27,33 @@ h4 {
 a {
   text-decoration: none;
   font-weight: 600;
+}
+#tribute-info {
+  text-align: justify;
+  padding: 0 0.7rem;
+}
+#jh-info {
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+#jh-info:hover {
+  color: #8c41c9;
+}
+
+@media (max-width: 400px) {
+  #img-caption p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 0.5rem;
+    color: #000;
+  }
+  #jh-info {
+    font-size: 1rem;
+    padding: 0.7rem;
+    color: #fff;
+  }
 }
